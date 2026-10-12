@@ -1,0 +1,20 @@
+.DS_Store
+.build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+*.ipa
+*.dSYM/
+.swiftpm/
+
+# Local credentials and signing material must never be published.
+.env
+.env.*
+!.env.example
+*.p12
+*.p8
+*.mobileprovision
+*.provisionprofile
+*.pem
+*.key
+*.xcarchive/

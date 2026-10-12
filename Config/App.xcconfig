@@ -1,0 +1,11 @@
+// Change these together before signing. The widget inherits both identifiers.
+SOMEDAY_BUNDLE_ID = com.example.someday
+SOMEDAY_APP_GROUP = group.$(SOMEDAY_BUNDLE_ID)
+SOMEDAY_KEYCHAIN_GROUP = $(AppIdentifierPrefix)$(SOMEDAY_BUNDLE_ID).security
+// Set DEVELOPMENT_TEAM in Xcode Signing & Capabilities for both targets.
+IPHONEOS_DEPLOYMENT_TARGET = 17.0
+SWIFT_VERSION = 5.0
+MARKETING_VERSION = 1.0
+CURRENT_PROJECT_VERSION = 1
+TARGETED_DEVICE_FAMILY = 1
+CODE_SIGN_STYLE = Automatic
